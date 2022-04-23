@@ -40,7 +40,7 @@ var displayIssues = function(issues) {
     for (var i = 0; i < issues.length; i++) {
         // create a link element to take users to the issue on Github
         var issueEl = document.createElement("a");
-        issueEl.classList = "list-item flex-row justify-space-between align-center";
+        issueEl.classList = "list-item flex-row justify-space-between align-center test";
         issueEl.setAttribute("href", issues[i].html_url);
         issueEl.setAttribute("target", "_blank");
 
